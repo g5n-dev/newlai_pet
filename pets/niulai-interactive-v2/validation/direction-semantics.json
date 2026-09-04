@@ -1,0 +1,122 @@
+{
+  "ok": true,
+  "source": "qa/look-directions.png",
+  "continuity": {
+    "verdict": "warning",
+    "reason": "顺时针 16 向循环无错象限或反转；292.5→315→337.5 逐步拓宽并平滑衔接 000。剩余测量警告集中在四分之一转身的自然轮廓变化，正常尺寸下未见位置或尺度突跳。"
+  },
+  "directions": [
+    {
+      "degree": "000",
+      "expected": "up",
+      "verdict": "pass",
+      "horizontal_evidence": "双瞳与口鼻保持在面部水平中线，没有左右偏转。",
+      "vertical_evidence": "双瞳贴近上眼睑，头部与粉色口鼻正中上抬。"
+    },
+    {
+      "degree": "022.5",
+      "expected": "up-right",
+      "verdict": "pass",
+      "horizontal_evidence": "瞳孔、鼻尖与口鼻从中线轻微移向画面右侧。",
+      "vertical_evidence": "瞳孔保持明显上转，头与口鼻继续上仰。"
+    },
+    {
+      "degree": "045",
+      "expected": "up-right",
+      "verdict": "pass",
+      "horizontal_evidence": "面部转向画面右侧，右向鼻尖和瞳孔位移清楚。",
+      "vertical_evidence": "瞳孔仍位于眼白上部，口鼻轴线向上。"
+    },
+    {
+      "degree": "067.5",
+      "expected": "up-right",
+      "verdict": "pass",
+      "horizontal_evidence": "右向三分之二侧脸与鼻尖投影明确。",
+      "vertical_evidence": "上眼位与上仰口鼻仍可读，尚未落到水平。"
+    },
+    {
+      "degree": "090",
+      "expected": "right",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖、粉色口鼻和可见眼球正对画面右侧。",
+      "vertical_evidence": "眼睑与口鼻大致处于水平轴，没有明显上仰或下俯。"
+    },
+    {
+      "degree": "112.5",
+      "expected": "down-right",
+      "verdict": "pass",
+      "horizontal_evidence": "侧脸、鼻尖与视线维持画面右向。",
+      "vertical_evidence": "瞳孔和口鼻开始低于水平中线。"
+    },
+    {
+      "degree": "135",
+      "expected": "down-right",
+      "verdict": "pass",
+      "horizontal_evidence": "瞳孔和鼻尖落在头部中心的画面右侧。",
+      "vertical_evidence": "低眼、压低眉睑与下俯口鼻共同指向下方。"
+    },
+    {
+      "degree": "157.5",
+      "expected": "down-right",
+      "verdict": "pass",
+      "horizontal_evidence": "接近正下姿态但鼻尖和瞳孔仍保留少量画面右偏。",
+      "vertical_evidence": "头部、眼睑和粉色口鼻显著下俯。"
+    },
+    {
+      "degree": "180",
+      "expected": "down",
+      "verdict": "pass",
+      "horizontal_evidence": "双瞳和口鼻回到水平中线，左右对称。",
+      "vertical_evidence": "双瞳贴近下眼睑，头顶前倾、鼻尖正中向下。"
+    },
+    {
+      "degree": "202.5",
+      "expected": "down-left",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖、口鼻与视线越过中线移向画面左侧。",
+      "vertical_evidence": "低眼和下俯头部仍是主轴。"
+    },
+    {
+      "degree": "225",
+      "expected": "down-left",
+      "verdict": "warning",
+      "horizontal_evidence": "左向侧脸和鼻尖明确，但与 202.5 的增量较含蓄。",
+      "vertical_evidence": "瞳孔位于下眼区，口鼻仍朝左下。"
+    },
+    {
+      "degree": "247.5",
+      "expected": "down-left",
+      "verdict": "pass",
+      "horizontal_evidence": "接近左侧脸，鼻尖和口鼻强烈指向画面左侧。",
+      "vertical_evidence": "眼睑、瞳孔与头轴仍保留可读的下俯。"
+    },
+    {
+      "degree": "270",
+      "expected": "left",
+      "verdict": "pass",
+      "horizontal_evidence": "完整左侧轮廓与鼻尖正对画面左侧，与 090 相反。",
+      "vertical_evidence": "可见眼球和口鼻接近水平轴。"
+    },
+    {
+      "degree": "292.5",
+      "expected": "up-left",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖、口鼻和视线保持画面左向。",
+      "vertical_evidence": "抬眼与抬吻已明显高于水平轴。"
+    },
+    {
+      "degree": "315",
+      "expected": "up-left",
+      "verdict": "pass",
+      "horizontal_evidence": "左向仍清楚，同时双眼开始可见、面部宽度介于 292.5 与 337.5 之间。",
+      "vertical_evidence": "瞳孔贴近上眼睑，头和粉色口鼻清楚上仰。"
+    },
+    {
+      "degree": "337.5",
+      "expected": "up-left",
+      "verdict": "warning",
+      "horizontal_evidence": "近正面构图中鼻尖、口鼻和瞳孔只保留细微画面左偏；缩略盲测可能读为中性，但标注循环未越过中线。",
+      "vertical_evidence": "高眼位、上扬口鼻与双眼双角正面化明确衔接回 000。"
+    }
+  ]
+}

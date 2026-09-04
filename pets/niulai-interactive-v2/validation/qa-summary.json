@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "standard_state_rows": 9,
+  "standard_animation_frames": 57,
+  "look_directions": 16,
+  "blind_reviewers": 3,
+  "cardinal_direction_gates": "pass",
+  "final_visual_qa": "pass",
+  "accepted_warnings": [
+    "225 的左下方向明确，但与相邻方向的增量较含蓄",
+    "337.5 在缩略盲测中的水平提示偏细微，但标注正常尺寸和有序循环确认其为左上，且没有越过中线",
+    "000 的透明内孔来自双角与双耳之间的自然负空间，不是身体断裂",
+    "067.5→090、157.5→180、247.5→270 的轮廓差分偏大，但正常尺寸下没有可见跳变"
+  ],
+  "hard_failures": [],
+  "notes": "图集结构、透明度、色键去边、基准方向、逐方向语义和最终视觉 QA 均通过；没有错象限、方向反转、身份漂移、裁切或循环尺寸突跳。"
+}

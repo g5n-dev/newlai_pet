@@ -8,6 +8,8 @@
 
 > 这是基于 [sadlywo/niulai-codex-pet](https://github.com/sadlywo/niulai-codex-pet) 制作的非官方、非商业衍生版。完整来源、修改说明和许可边界见 [SOURCE_ATTRIBUTION.md](SOURCE_ATTRIBUTION.md) 与 [LICENSE](LICENSE)。
 
+> 想要动作更丰富的版本：见 [牛来·互动版](pets/niulai-interactive-v2/README.md)，或[直接下载安装包](https://github.com/g5n-dev/newlai_pet/releases/download/v2.1.0/niulai-interactive-v2.zip)。它使用独立宠物 ID，与本版和原版并存。
+
 ## 这版改了什么
 
 - 保留 v1 的橙金色绒毛、半眯侧眼、紫粉色牛嘴与克制厌世感。

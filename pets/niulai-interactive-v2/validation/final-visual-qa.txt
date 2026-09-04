@@ -1,0 +1,6 @@
+visual_qa=pass
+qa_note=九行标准动画与16向视线保持同一橙色公牛身份、毛绒质感、面部与比例；透明裁切、轮廓、道具和动作均正常，无错象限或反向。
+direction_semantics=000 pass 上仰且水平居中; 022.5 pass 轻微右偏并上仰; 045 pass 右向与上仰清晰; 067.5 pass 右向三分之二侧脸且仍上仰; 090 pass 明确右侧面且垂直中性; 112.5 pass 右向并开始下俯; 135 pass 右下方向由低眼与下俯口鼻确认; 157.5 pass 接近正下且保留右偏; 180 pass 正下且左右对称; 202.5 pass 左下方向清晰; 225 warning 左下方向明确但相邻增量含蓄; 247.5 pass 强左向并下俯; 270 pass 完整左侧面; 292.5 pass 左向且明显上仰; 315 pass 左向与上仰连续; 337.5 warning 近正面仅细微左偏但循环未越中线
+review_warnings=225 中间方向增量较含蓄但标注与循环确认; 337.5 盲测水平轴略不确定但标注与循环确认; 000 顶部透明孔位于角/耳间负空间而非身体断裂; 067.5→090、157.5→180、247.5→270 局部轮廓变化偏大但无跳变; running-right/running-left/jumping/failed 使用 stable-slots 需播放确认但帧序稳定
+repair_rows=none
+repair_notes=none
