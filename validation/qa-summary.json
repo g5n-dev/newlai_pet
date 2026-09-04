@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "standard_state_rows": 9,
+  "look_directions": 16,
+  "blind_reviewers": 3,
+  "cardinal_direction_gates": "pass",
+  "final_visual_qa": "pass",
+  "accepted_warnings": [
+    "067.5 upward cue is subtle",
+    "112.5 downward cue is subtle",
+    "135 downward cue produced blind-review disagreement but passed labeled ordered-loop review",
+    "292.5 upward cue produced blind-review ambiguity but passed labeled ordered-loop review"
+  ],
+  "hard_failures": [],
+  "notes": "All intermediate warnings were visually reviewed at normal pet size; no wrong quadrant, cardinal ambiguity, identity drift, clipping, or loop reversal remains."
+}
